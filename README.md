@@ -38,9 +38,3 @@ This document contains a summary of the files saved on the repo.
 ###tidydataset.txt. 
 This docmuent contains average of each variable for each activity and each subject for the the objective 5 of the project. 
    
-```{r, include=FALSE}
-   # add this chunk to end of mycode.rmd
-   file.rename(from="C:\\Users\\Espejo-Arikawa\\Documents\\Luis\\GCD.project\\README.rmd", 
-               to="README.md")
-
-```

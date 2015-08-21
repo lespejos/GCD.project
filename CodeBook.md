@@ -60,7 +60,7 @@ Objective 2 outcome data frame "extract"
 
 1. I added column names to the file "activity.labels". One of the columns activity was use as merging key.   
 
-2. I merged activity labels with extract data by variable "activity". 
+2. I merged activity labels with extract data by variable "activity". Now variable "actdesc" includes WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING.  
 
 Objective 3 outcome data frame "extract" with a new column with the description of the activities "actdesc"
 
@@ -81,9 +81,5 @@ Objective 4 outcome data frame "extract" with new column descriptive names.
 4. I exported tidydataset to a txt file
 
 Objective 5 outcome txt file "tidydataset
-```{r, include=FALSE}
-   # add this chunk to end of mycode.rmd
-   file.rename(from="C:\\Users\\Espejo-Arikawa\\Documents\\Luis\\GCD.project\\CodeBook.rmd", 
-               to="CodeBook.md")
 
-```
+
